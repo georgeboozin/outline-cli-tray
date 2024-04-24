@@ -1,4 +1,3 @@
-// save as main.go
 package main
 
 import (
@@ -12,7 +11,6 @@ import (
 
 func startCmd(args []string) int {
     cmd := exec.Command("go", args...)
-    // cmd := exec.Command("bash", "-c", "while true; do foo; sleep 2; done")
 
     cmd.SysProcAttr = &syscall.SysProcAttr{Setpgid: true}
     cmd.Stdout = os.Stdout
