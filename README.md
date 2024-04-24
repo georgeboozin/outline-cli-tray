@@ -1,4 +1,5 @@
-# Outline CLI Tray
+# Outline CLI tray
+Outline CLI tray could help you to be aware about vpn state if you have a problem with AppImage of Outline Client.
 
 ## Showcase
 ![Showcase](./showcase.webp)
